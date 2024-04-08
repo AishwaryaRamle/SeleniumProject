@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/SeleniumProject">
+        <classes>
+            <class name="Selenium.sel01">
+                <methods>
+                    <include name="testMethod"/>
+                </methods>
+            </class>
+            <class name="Selenium.sel02">
+                <methods>
+                    <include name="invalidLogin"/>
+                </methods>
+            </class>
+            <class name="org.example.Testcase2">
+                <methods>
+                    <include name="vwoLogin"/>
+                </methods>
+            </class>
+            <class name="org.example.Testcase3">
+                <methods>
+                    <include name="vwoLogin"/>
+                </methods>
+            </class>
+            <class name="org.example.prog1">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
